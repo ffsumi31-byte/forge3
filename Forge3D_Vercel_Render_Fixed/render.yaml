@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: forge3d-studio
+    runtime: static
+    buildCommand: node build.mjs
+    staticPublishPath: dist
+    autoDeploy: true
